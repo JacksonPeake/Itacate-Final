@@ -454,30 +454,6 @@ h1, h2, h3, h4 {
 
 /* -------------menu styles----------------- */
 
-/* .menu {
-    display: flex;
-    
-   
-}
-
-.menuBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200vh;
-    position: relative;
-  }
-  
-.menu {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
-
   .menuHeader {
     text-align: center; 
     margin-top: 20px;
@@ -488,10 +464,42 @@ h1, h2, h3, h4 {
     font-family: karma, sans-serif;
   }
 
-  .containerMenu {
-    margin-top: 20px;
-    justify-content: center;
-  }
+
+
+
+  .menuBody {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.menu {
+    width: 80%;
+    margin: 200px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #444;
+}
+
+.item h3 {
+    color: #555;
+    margin-top: 0;
+}
+
+.item p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
 
 
 /* --------------------menu styles end--------------- */
